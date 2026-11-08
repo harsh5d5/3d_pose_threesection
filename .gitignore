@@ -1,3 +1,5 @@
 ﻿.ipynb_checkpoints/
 input/*.mp4
 outputs/*.mp4
+
+yolov8pose_model_with_outputs.ipynb
