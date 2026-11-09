@@ -1,0 +1,7 @@
+if OUTPUT_VIDEO.exists():
+    size_mb = OUTPUT_VIDEO.stat().st_size / (1024 * 1024)
+    print("Output video created successfully!")
+    print("File:", OUTPUT_VIDEO)
+    print(f"Size: {size_mb:.2f} MB")
+else:
+    print("Output video was not created.")
